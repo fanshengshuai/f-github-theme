@@ -1,0 +1,24 @@
+{
+  "name": "f-github-theme",
+  "icon": "icon.png",
+  "publisher": "fanshengshuai",
+  "displayName": "F Github Theme",
+  "description": "Github theme from github",
+  "repository": "https://github.com/fanshengshuai/f-github-theme",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "F Github Light",
+        "uiTheme": "vs",
+        "path": "./themes/F Github Light-color-theme.json"
+      }
+    ]
+  }
+}
